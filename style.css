@@ -1,0 +1,169 @@
+body
+{
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    background-image: url('bg2.jpg');
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:75px;
+    background-color: transparent;
+    width: 1300px;
+    height:700px;
+}
+
+#userblock
+{
+    border: none;
+    border-radius: 10px;
+    background-color: #4a4a4a;
+    width: 300px;
+    height: 315px;
+    box-shadow: 0 0 7px #e65447;
+}
+
+#pcblock
+{
+    border: none;
+    border-radius: 10px;
+    background-color: #8D7272;
+    width: 300px;
+    height: 315px;
+    box-shadow: 0 0 7px #64D74A;
+}
+
+#scoreus, #scorepc
+{
+    font-size: 19px;
+    margin-top: 20px;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+#pointsus, #pointspc 
+{
+    font-size: 19px;
+    margin-top: 20px;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+#displayscore1
+{
+    font-size: 25px;
+    border:none;
+    color:#A61B1B;
+    background-color:#252129;
+    display: flex;
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 7px #e65447;
+}
+
+#displayscore2
+{
+    font-size: 25px;
+    border:none;
+    color:#BF2E1A;
+    background-color:#69482b ;
+    display: flex;
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 7px #64D74A;
+}
+
+#displaypts1
+{
+    font-size: 25px;
+    border:none;
+    color: #A61B1B;
+    background-color:#252129;
+    display: flex;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 7px #e65447;
+}
+
+#displaypts2
+{
+    font-size: 25px;
+    border:none;
+    color: #BF2E1A;
+    background-color:#69482b;
+    display: flex;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 7px #64D74A;
+}
+
+#btn
+{
+    color:#D32F2F ;
+    font-weight: bold;
+    font-size: 25px;
+    width: 175px;
+    height:65px;
+    border-radius: 10px;
+    border: none;
+    background-color: #240b0b;
+    transition: 0.2s ease-in-out;
+}
+
+#btn:hover
+{
+    box-shadow: 0 0 7px #D32F2F;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#nickname
+{
+    color:#240b0b; 
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+#ai
+{
+    color:#64D74A; 
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    height: 20px;
+    margin-top: 10px;
+}
